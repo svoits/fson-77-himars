@@ -1,0 +1,49 @@
+:root {
+  --accent-color: #28a745;
+  --primary-text-color: #333333;
+  --secondary-text-color: #ffffff;
+  --bg-color: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--bg-color);
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* reset */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* ul */
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* a */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* img */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
