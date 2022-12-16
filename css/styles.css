@@ -148,13 +148,13 @@ address {
 /* About Styles */
 
 .about {
-  padding:119px 0 19px;
-  background-color: #F4F4F4;
+  padding: 119px 0 19px;
+  background-color: #f4f4f4;
 }
 
 .about .container {
   padding: 0 66px;
-  }
+}
 
 .about-list {
   display: flex;
@@ -162,23 +162,19 @@ address {
   text-align: center;
 }
 
-
 .about-title {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.65;
 
-
   margin-bottom: 16px;
-  }
+}
 
 .about-description {
-    line-height: 1.56;
-
+  line-height: 1.56;
 }
 
 /* Solutions Styles */
-
 
 .solutions .container {
   padding: 0;
@@ -192,10 +188,10 @@ address {
 }
 
 .solutions-sub-title {
-    font-size: 20px;
-    line-height: 1.65;
-    color: var(--secondary-text-color);
-    margin-bottom: 5px;
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--secondary-text-color);
+  margin-bottom: 5px;
 }
 
 .solutions-title {
@@ -223,4 +219,38 @@ address {
   display: inline-block;
 }
 
+/* business cases styles */
 
+.bcases {
+  padding: 50px 0 48px;
+
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.bcases-subtitle {
+  margin-bottom: 15px;
+
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.bcases-title {
+  margin-bottom: 34px;
+
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+
+.bcases-desciptions {
+  margin-bottom: 39px;
+
+  line-height: 1.56;
+}
+
+.bcases-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px 8px;
+}
