@@ -340,6 +340,25 @@ address {
   gap: 19px;
 }
 
+.team-social {
+  position: relative;
+}
+
+.team-social-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  display: flex;
+  gap: 25px;
+  transition-duration: 1500ms;
+}
+
+.team-link:hover + .team-social-list {
+  opacity: 1;
+}
+
 .team-wrapper {
   padding-top: 13px;
 }
