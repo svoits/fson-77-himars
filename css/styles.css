@@ -306,7 +306,7 @@ address {
 
 /* Team styles */
 
-.team {
+.team .container {
   padding-top: 49px;
 
   text-align: center;
