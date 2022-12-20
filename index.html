@@ -1,220 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Finance Ledger</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- font-family -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
+  <title>Finance Ledger</title>
 
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
-    <link rel="manifest" href="./favicon/site.webmanifest" />
-    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5" />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
+  <!-- font-family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
 
-    <!-- normalize -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./favicon/site.webmanifest" />
+  <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
 
-    <!-- base styles -->
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="header">
+  <!-- normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- base styles -->
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a class="logo link" href="/">
+          <span class="accent">Finance</span>Fedger</a>
+        <ul class="nav-list list">
+          <li class="nav-item">
+            <a class="nav-link link" href="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="">Cases</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- hero -->
+    <section class="hero">
       <div class="container">
-        <nav class="nav">
-          <a class="logo link" href="/"><span class="accent">Finance</span>Fedger</a>
-          <ul class="nav-list list">
-            <li class="nav-item"><a class="nav-link link" href="">Home</a></li>
-            <li class="nav-item"><a class="nav-link link" href="">About</a></li>
-            <li class="nav-item"><a class="nav-link link" href="">Cases</a></li>
-            <li class="nav-item"><a class="nav-link link" href="">Blog</a></li>
-            <li class="nav-item"><a class="nav-link link" href="">Contacts</a></li>
-          </ul>
-        </nav>
+        <h1 class="hero-title">The Sky Is The Limit</h1>
+        <p class="hero-description">We provide world class financial assistance</p>
+        <a href="" class="hero-btn link">Read More</a>
       </div>
-    </header>
+    </section>
 
-    <!-- Main -->
-    <main>
-      <!-- hero -->
-      <section class="hero">
-        <div class="container">
-          <h1 class="hero-title">The Sky Is The Limit</h1>
-          <p class="hero-description">We provide world class financial assistance</p>
-          <a href="" class="hero-btn link">Read More</a>
-        </div>
-      </section>
-
-      <!-- About -->
-      <section class="about">
-        <div class="container">
-          <h2 class="visually-hidden">About</h2>
-          <ul class="about-list list">
-            <li class="about-item">
-              <h3 class="about-title">Investmant Banking</h3>
-              <p class="about-description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
-                necessitatibus!
-              </p>
-            </li>
-
-            <li class="about-item">
-              <h3 class="about-title">Portfolio Manager</h3>
-              <p class="about-description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
-                necessitatibus!
-              </p>
-            </li>
-
-            <li class="about-item">
-              <h3 class="about-title">Tax & Custudio</h3>
-              <p class="about-description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
-                necessitatibus!
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- solutions -->
-      <section class="solutions">
-        <div class="container">
-          <img
-            class="solutions-img"
-            src="./images/solution.jpg"
-            alt="team"
-            width="680"
-            height="460"
-          />
-
-          <div class="solutions-wrapper">
-            <p class="solutions-sub-title">What you are looking for</p>
-            <h2 class="solutions-title">We provide bespoke solutions</h2>
-            <p class="solutions-desciptions">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
-              quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
-              itaque rerum temporibus doloribus iste maiores deleniti?
+    <!-- About -->
+    <section class="about">
+      <div class="container">
+        <h2 class="visually-hidden">About</h2>
+        <ul class="about-list list">
+          <li class="about-item">
+            <h3 class="about-title">Investmant Banking</h3>
+            <p class="about-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
             </p>
-            <a class="solutions-btn link" href="/">Read More</a>
-          </div>
-        </div>
-      </section>
+          </li>
 
-      <!-- business-cases -->
+          <li class="about-item">
+            <h3 class="about-title">Portfolio Manager</h3>
+            <p class="about-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
+            </p>
+          </li>
 
-      <section class="bcases">
-        <div class="container">
-          <p class="bcases-subtitle">This is what we do</p>
-          <h2 class="bcases-title">Business Cases</h2>
-          <p class="bcases-desciptions">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!
+          <li class="about-item">
+            <h3 class="about-title">Tax & Custudio</h3>
+            <p class="about-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- solutions -->
+    <section class="solutions">
+      <div class="container">
+        <img class="solutions-img" src="./images/solution.jpg" alt="team" width="680" height="460" />
+
+        <div class="solutions-wrapper">
+          <p class="solutions-sub-title">What you are looking for</p>
+          <h2 class="solutions-title">We provide bespoke solutions</h2>
+          <p class="solutions-desciptions">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium asperiores nam aliquid
+            impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?
           </p>
-          <ul class="bcases-list list">
-            <li>
-              <img
-                src="./images/business-cases/business-cases-1.jpg"
-                alt="people in a meeting"
-                width="320"
-                height="214"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/business-cases/business-cases-2.jpg"
-                alt="somebody writing notes"
-                width="320"
-                height="214"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/business-cases/business-cases-3.jpg"
-                alt="partners shaking hands"
-                width="320"
-                height="214"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/business-cases/business-cases-4.jpg"
-                alt="team folded their hands one on one"
-                width="320"
-                height="214"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/business-cases/business-cases-5.jpg"
-                alt="woman working on laptop"
-                width="320"
-                height="214"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/business-cases/business-cases-6.jpg"
-                alt="skyscrapers"
-                width="320"
-                height="214"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/business-cases/business-cases-7.jpg"
-                alt="team working on project"
-                width="320"
-                height="214"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/business-cases/business-cases-8.jpg"
-                alt="happy people"
-                width="320"
-                height="214"
-              />
-            </li>
-          </ul>
+          <a class="solutions-btn link" href="/">Read More</a>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- blog post one -->
+    <!-- business-cases -->
 
-      <section class="blog-post">
-        <div class="container">
-          <div class="blog-post-wrapper">
-            <p class="blog-post-subtitle">April 16 2020</p>
-            <h2 class="blog-post-title">Blog Post One</h2>
-            <p class="blog-post-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
-              quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
-              itaque rerum temporibus doloribus iste maiores deleniti?
-            </p>
-            <a class="blog-post-btn link" href="#">Read Our Blog</a>
-          </div>
-          <img src="./images/blog-post-one.jpg" alt="notebooks and a cup of coffee" />
+    <section class="bcases">
+      <div class="container">
+        <p class="bcases-subtitle">This is what we do</p>
+        <h2 class="bcases-title">Business Cases</h2>
+        <p class="bcases-desciptions">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!
+        </p>
+        <ul class="bcases-list list">
+          <li>
+            <img src="./images/business-cases/business-cases-1.jpg" alt="people in a meeting" width="320" height="214" />
+          </li>
+          <li>
+            <img src="./images/business-cases/business-cases-2.jpg" alt="somebody writing notes" width="320" height="214" />
+          </li>
+          <li>
+            <img src="./images/business-cases/business-cases-3.jpg" alt="partners shaking hands" width="320" height="214" />
+          </li>
+          <li>
+            <img src="./images/business-cases/business-cases-4.jpg" alt="team folded their hands one on one" width="320" height="214"
+            />
+          </li>
+          <li>
+            <img src="./images/business-cases/business-cases-5.jpg" alt="woman working on laptop" width="320" height="214" />
+          </li>
+          <li>
+            <img src="./images/business-cases/business-cases-6.jpg" alt="skyscrapers" width="320" height="214" />
+          </li>
+          <li>
+            <img src="./images/business-cases/business-cases-7.jpg" alt="team working on project" width="320" height="214" />
+          </li>
+          <li>
+            <img src="./images/business-cases/business-cases-8.jpg" alt="happy people" width="320" height="214" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- blog post one -->
+
+    <section class="blog-post">
+      <div class="container">
+        <div class="blog-post-wrapper">
+          <p class="blog-post-subtitle">April 16 2020</p>
+          <h2 class="blog-post-title">Blog Post One</h2>
+          <p class="blog-post-description">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium asperiores nam aliquid
+            impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?
+          </p>
+          <a class="blog-post-btn link" href="#">Read Our Blog</a>
         </div>
-      </section>
-    </main>
-  </body>
+        <img src="./images/blog-post-one.jpg" alt="notebooks and a cup of coffee" />
+      </div>
+    </section>
+
+    <!-- team -->
+
+    <section class="team">
+      <div class="container">
+        <span class="team-span">Who we are</span>
+        <h2 class="team-title">Our Professional Team</h2>
+        <p class="team-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
+        <ul class="list team-list">
+          <li class="team-item">
+            <a href="" class="link team-link">
+              <div class="team-social">
+                <img src="./images/president.jpg" alt="Photo president" width="420" height="280">
+                <ul class="list team-social-list">
+                  <li class="team-social-item">
+                    <a href="" class="link team-social-link">
+                      <svg width="35" height="35">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a href="" class="link team-social-link">
+                      <svg width="35" height="35">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a href="" class="link team-social-link">
+                      <svg width="35" height="35">
+                        <use href="./images/icons.svg#icon-youtube"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a href="" class="link team-social-link">
+                      <svg width="35" height="35">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="team-wrapper">
+                <h3 class="team-name">John Doe</h3>
+                <p class="team-job-title">President</p>
+              </div>
+            </a>
+          </li>
+          <li class="team-item">
+            <a href="" class="link team-link">
+              <div class="team-social">
+                <img src="./images/vice-president.jpg" alt="Photo vice president" width="420" height="280">
+                <ul class="list team-social-list">
+                  <li class="team-social-item">
+                    <a href="" class="link team-social-link">
+                      <svg width="35" height="35">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a href="" class="link team-social-link">
+                      <svg width="35" height="35">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a href="" class="link team-social-link">
+                      <svg width="35" height="35">
+                        <use href="./images/icons.svg#icon-youtube"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a href="" class="link team-social-link">
+                      <svg width="35" height="35">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="team-wrapper">
+                <h3 class="team-name">Jane Doe</h3>
+                <p class="team-job-title">Vice President</p>
+              </div>
+            </a>
+          </li>
+          <li class="team-item">
+            <a href="" class="link team-link">
+              <div class="team-social">
+                <img src="./images/marketing-head.jpg" alt="Photo marketing head" width="420" height="280">
+                <ul class="list team-social-list">
+                  <li class="team-social-item">
+                    <a href="" class="link team-social-link">
+                      <svg width="35" height="35">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a href="" class="link team-social-link">
+                      <svg width="35" height="35">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a href="" class="link team-social-link">
+                      <svg width="35" height="35">
+                        <use href="./images/icons.svg#icon-youtube"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a href="" class="link team-social-link">
+                      <svg width="35" height="35">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="team-wrapper">
+                <h3 class="team-name">Steve Smith</h3>
+                <p class="team-job-title">Marketing Head</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
