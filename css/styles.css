@@ -374,4 +374,61 @@ address {
 .team-job-title {
   font-weight: 400;
   line-height: 1.56;
+
+}
+/* Request callback styles */ 
+
+.callback .container{
+  display: flex;
+  padding: 0 0 60px;
+}
+
+ .callback-wrapper {
+  background-color:#F4F4F4;
+  width: 50%;
+  padding: 131px 347px 0 28px;
+}
+
+.callback-title {
+  margin-bottom: 42px;
+
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.3;
+  color:var(--primary-text-color);
+  }
+
+.callback-btn{
+  background-color:var(--accent-color);
+  line-height: 1.4;
+  color: var(--secondary-text-color);
+
+  border: none;
+  border-radius: 5px;
+
+  padding: 7px 277px 10px 291px;
+}
+
+
+/* Footer styles */
+.footer {
+  height: 110px;
+  background-color: var(--primary-text-color);
+  padding: 20px 0 55px;
+}
+
+.footer-soc-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:25px;
+}
+
+
+.footer-text{
+  margin-top: 10px;
+  margin-bottom: 16px;
+  line-height: 1.56;
+  color:var(--secondary-text-color);
+  text-align: center;
 }
