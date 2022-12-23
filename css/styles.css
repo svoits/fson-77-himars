@@ -4,6 +4,8 @@
   --secondary-text-color: #ffffff;
   --bg-color: #ffffff;
   --supporting-color: #0284d0;
+  --duration: 250ms;
+  --function-timing: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 body {
@@ -72,7 +74,8 @@ address {
 /* HEADER Styles */
 
 .header {
-  background-color: #5e5e5e;
+  position: absolute;
+  width: 100%;
 }
 
 .header .container {
@@ -85,11 +88,18 @@ address {
 }
 
 .logo {
+  display: flex;
+ align-items: center;
   margin-right: auto;
 
   font-size: 35px;
   line-height: 1.21;
   color: var(--secondary-text-color);
+}
+
+.logo-icon {
+  margin-right: 10px;
+  fill: var(--accent-color)
 }
 
 .nav-list {
@@ -108,6 +118,26 @@ address {
   padding: 21px 0;
   line-height: 1.56;
   color: var(--secondary-text-color);
+  transition: color var(--duration) var(--function-timing);
+  position: relative;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  width: 100%;
 }
 
 /* Hero Styles */
@@ -116,6 +146,12 @@ address {
   padding: 259px 0 284px;
   background-color: #5e5e5e;
   text-align: center;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero/hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1360px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -136,14 +172,26 @@ address {
 }
 
 .hero-btn {
-  display: inline-block;
-  padding: 10px 30px 9px 41px;
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  padding: 10px 30px 9px 27px;
 
   background-color: var(--accent-color);
   border-radius: 5px;
 
   line-height: 1.56;
   color: var(--secondary-text-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+color: var(--accent-color);
+background-color: var(--bg-color);
+}
+
+.icon-arrow {
+  fill: currentColor;
 }
 
 /* About Styles */
