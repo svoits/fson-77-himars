@@ -1,0 +1,29 @@
+.footer {
+  padding: 20px 0 16px;
+  background-color: var(--primary-text-color);
+}
+
+.footer-soc-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer-text {
+  margin-top: 10px;
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+  text-align: center;
+}
+
+.footer-soc-item {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-soc-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

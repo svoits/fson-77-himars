@@ -97,3 +97,7 @@ Pages, в ветку `gh-pages`, каждый раз когда обновляе
 3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
    отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
    скрипта будет указано в чем проблема.
+
+# maket - https://www.figma.com/file/VWYrkrR95tw5N8rtbWtUsn/Land-(Copy)?node-id=0%3A1&t=f1KtA34mKtklICUk-0
+
+# СТВОРЕНО НОВИЙ ЧАТ У SLACK - additional_practice. Кого не додав - напишіть мені в ЛС у слак - Serhii Voitsekhovskyi

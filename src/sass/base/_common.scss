@@ -1,0 +1,12 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--bg-color);
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-bg {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}

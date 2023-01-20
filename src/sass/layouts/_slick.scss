@@ -1,0 +1,9 @@
+.slick {
+  background-color: #5e5e5e;
+  padding: 200px 0;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: red;
+}
